@@ -14,7 +14,7 @@ export default defineConfig({
     target: 'es2020',
     rollupOptions: {
       input: {
-        main: './HDF5Previewer.html',
+        main: './HDF5Preview.html',
       },
       output: {
         entryFileNames: './js/hdf5.js',
